@@ -26,3 +26,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+body, html, #root, .container-div {
+    height: 100%;
+}
+
+.bgimage {
+  width:100%;
+  height:100%;
+  background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.bgimage h5 {
+  color:white;
+  text-shadow:2px 2px #333;
+}
