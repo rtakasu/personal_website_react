@@ -31,6 +31,42 @@ body, html, #root, .container-div {
     height: 100%;
 }
 
+.section-heading {
+  text-align: center;
+}
+
+.thematic-break {
+  margin: 2rem;
+}
+
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-picture {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: auto;
+}
+
+.background-text {
+
+}
+
 .bgimage {
   width:100%;
   height:100%;

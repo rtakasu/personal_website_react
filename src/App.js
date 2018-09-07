@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Hero from './Hero.js';
+import Section from './Section.js';
+import Background from './Background.js';
+import About from './About.js';
+import AboutItem from './AboutItem.js';
 import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
 
 class App extends Component {
@@ -22,9 +26,19 @@ class App extends Component {
         return (
             <div className='container-div'>
                 <Hero/>
-                <Grid>
-                <Col xs={12} md={8}>ffasd</Col>
-                </Grid>
+                <Section
+                  id={'background'}
+                  title={'Background'}
+                  background={'#fff'}
+                  sectionBody={<Background/>}
+                />
+                <Section
+                  id={'background'}
+                  title={'Background'}
+                  background={'grey'}
+                  sectionBody={<About/>}
+                />
+
             </div>
         );
     }
