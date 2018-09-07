@@ -6,6 +6,7 @@ import Section from './Section.js';
 import Background from './Background.js';
 import About from './About.js';
 import Skills from './Skills.js';
+import Experience from './Experience.js';
 import AboutItem from './AboutItem.js';
 import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
 
@@ -38,6 +39,12 @@ class App extends Component {
                   title={'Skills'}
                   background={'grey'}
                   sectionBody={<Skills/>}
+                />
+                <Section
+                  id={'experience'}
+                  title={'Experience'}
+                  background={'white'}
+                  sectionBody={<Experience/>}
                 />
 
             </div>
