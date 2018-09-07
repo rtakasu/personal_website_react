@@ -13,7 +13,7 @@ class About extends React.Component {
 			  			/>
 			  		<AboutItem 
 			  			title={'Ready to Ship'} 
-			  			text={'You can use this theme as is, or you can make changes!'}
+			  			text={'You can use \n this theme as is, or you can make changes!'}
 			  			/>
 			  		<AboutItem 
 			  			title={'Ready to Ship'} 

@@ -5,6 +5,7 @@ import Hero from './Hero.js';
 import Section from './Section.js';
 import Background from './Background.js';
 import About from './About.js';
+import Skills from './Skills.js';
 import AboutItem from './AboutItem.js';
 import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
 
@@ -33,10 +34,10 @@ class App extends Component {
                   sectionBody={<Background/>}
                 />
                 <Section
-                  id={'background'}
-                  title={'Background'}
+                  id={'skills'}
+                  title={'Skills'}
                   background={'grey'}
-                  sectionBody={<About/>}
+                  sectionBody={<Skills/>}
                 />
 
             </div>

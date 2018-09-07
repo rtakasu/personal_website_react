@@ -63,8 +63,10 @@ body, html, #root, .container-div {
   width: auto;
 }
 
-.background-text {
-
+.skill-item {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
 }
 
 .bgimage {
