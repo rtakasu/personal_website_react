@@ -6,10 +6,13 @@ import Section from './Section.js';
 import Background from './Background.js';
 import About from './About.js';
 import Skills from './Skills.js';
+import Home from './Home.js';
+import Projects from './Projects.js';
 import Contact from './Contact.js';
 import Experience from './Experience.js';
 import AboutItem from './AboutItem.js';
 import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
+import { BrowserRouter, Route, Switch, Link, IndexRoute, hashHistory } from 'react-router-dom'
 
 class App extends Component {
     constructor(props) {
@@ -27,35 +30,13 @@ class App extends Component {
     }
     render() {
         return (
-            <div className='container-div'>
-                <Hero/>
-                <Section
-                  id={'background'}
-                  title={'Background'}
-                  background={'#fff'}
-                  sectionBody={<Background/>}
-                />
-                <Section
-                  id={'skills'}
-                  title={'Skills'}
-                  background={'grey'}
-                  sectionBody={<Skills/>}
-                />
-                <Section
-                  id={'experience'}
-                  title={'Experience'}
-                  background={'white'}
-                  sectionBody={<Experience/>}
-                />
-                <Section
-                  id={'projects'}
-                  title={'Projects'}
-                  background={'grey'}
-                  sectionBody={<Experience/>}
-                />
-                <Contact/>
-
-            </div>
+          <BrowserRouter>
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/projects' component={Projects} />
+            </Switch>
+          </BrowserRouter>
+            
         );
     }
 }
