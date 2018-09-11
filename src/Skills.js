@@ -8,17 +8,17 @@ class Skills extends React.Component {
 			  <Container>
 			  	<Row>
 			  		<SkillItem 
-			  			title={'Ready to Ship'} 
-			  			skillList={['Python', 'React', 'Django']}/>
+			  			title={'Languages'} 
+			  			skillList={['Python', 'Javascript', 'Java', 'Objective-C', 'C', 'OCaml']}/>
 		  			<SkillItem 
-			  			title={'Ready to Ship'} 
-			  			skillList={['Python', 'React', 'Django']}/>
+			  			title={'Frameworks'} 
+			  			skillList={['Flask', 'React', 'Django', 'Node', 'Jinja']}/>
 		  			<SkillItem 
-			  			title={'Ready to Ship'} 
-			  			skillList={['Python', 'React', 'Django']}/>
+			  			title={'Tools'} 
+			  			skillList={['Git', 'XCode', 'Android Studio', 'Webpack', 'Sketch', 'Bash']}/>
 		  			<SkillItem 
-			  			title={'Ready to Ship'} 
-			  			skillList={['Python', 'React', 'Django']}/>
+			  			title={'Platforms'} 
+			  			skillList={['Heroku', 'AWS', 'Github', 'Bluemix', 'Watson', '']}/>
 
 			  	</Row>
 			  </Container>

@@ -6,10 +6,10 @@ import { IconContext } from "react-icons";
 class Contact extends React.Component {
 	render () {
 		return (
-			  <Container>
+			  <Container className='contact'>
 			  	<Row>
 			  		<Col lg={3} md={3}>
-			  			<p>Designed and developed by Rafael Takasu</p>
+			  			<p>Designed and developed by <span className='contact-name'>Rafael Takasu</span></p>
 			  		</Col>
 			  		<Col lg={9} md={9}>
 			  			<IconContext.Provider value={{ size:'3rem' ,color: "blue", className: "global-class-name" }}>

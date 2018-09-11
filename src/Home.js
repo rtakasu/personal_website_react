@@ -18,13 +18,13 @@ class Home extends React.Component {
           <Section
             id={'background'}
             title={'Background'}
-            background={'#fff'}
+            background={'#1b1b1b'}
             sectionBody={<Background/>}
           />
           <Section
             id={'skills'}
             title={'Skills'}
-            background={'grey'}
+            background={'white'}
             sectionBody={<Skills/>}
           />
           <Section

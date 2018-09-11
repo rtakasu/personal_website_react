@@ -25,11 +25,11 @@
 }
 
 .hero-break {
-  height: 10px;
-  width: 80px;
+  height: 3px;
+  width: 120px;
   margin-left: auto;
   margin-right: auto;
-  background: white;
+  background: #00b7c7;
 }
 
 .hero-title {
@@ -89,7 +89,17 @@ body, html, #root, .container-div {
 }
 
 .section-heading {
-  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.blue-heading-div {
+  background-color: #00b7c7;
+  height: 2px;
+  width: 6rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .thematic-break {
@@ -97,6 +107,8 @@ body, html, #root, .container-div {
 }
 
 .section {
+  color: #d8d8d8;
+  font-family:  Gotham,Helvetica,Arial,sans-serif;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -120,10 +132,13 @@ body, html, #root, .container-div {
   width: auto;
 }
 
+.background-text {
+  font-weight: 100;
+}
+
 .skill-item {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
 }
 
 .experience-item {
@@ -146,4 +161,14 @@ body, html, #root, .container-div {
 .bgimage h5 {
   color:white;
   text-shadow:2px 2px #333;
+}
+
+.contact {
+  color: #d8d8d8;
+  background: grey;
+  font-family:  Gotham,Helvetica,Arial,sans-serif;
+}
+
+.contact-name {
+  color: #00b7c7;
 }

@@ -11,8 +11,10 @@ class Section extends React.Component {
 			  <Container>
 			  	<Row>
 			  		<Col lg={12}>
-			  			<h2 className="section-heading">{this.props.title}</h2>
-			  			<hr className='thematic-break'/>
+			  			<div>
+			  			<p className="section-heading">{this.props.title}</p>
+			  			<div className='blue-heading-div'></div>
+			  			</div>	
 			  		</Col>
 			  	</Row>
 			  </Container>
