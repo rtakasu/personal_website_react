@@ -15,6 +15,15 @@ class HeroVideo extends React.Component {
 							<p className='hero-title'>RAFAEL TAKASU</p>
 			      </Col>
 			    </Row>
+			    <Row>
+						<div className='hero-break'/>
+			    </Row>
+			    <Row>
+			      <Col lg={12} md={12} sm={12} xs={12}>
+							<p className='hero-subtitle'>SOFTWARE ENGINEER</p>
+			      </Col>
+			    </Row>
+			    
 			  </Container>
 			 </div>
 		)
