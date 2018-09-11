@@ -5,6 +5,7 @@ import Home from './Home.js';
 import Test from './Test.js';
 import Projects from './Projects.js';
 import { BrowserRouter, Route, Switch, Link, IndexRoute, hashHistory } from 'react-router-dom'
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 class App extends Component {
     constructor(props) {
@@ -22,13 +23,15 @@ class App extends Component {
     }
     render() {
         return (
-          <BrowserRouter>
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route path='/test' component={Test} />
-              <Route path='/projects' component={Projects} />
-            </Switch>
-          </BrowserRouter>
+          <ParallaxProvider>
+            <BrowserRouter>
+              <Switch>
+                <Route exact path='/' component={Home} />
+                <Route path='/test' component={Test} />
+                <Route path='/projects' component={Projects} />
+              </Switch>
+            </BrowserRouter>
+          </ParallaxProvider>
             
         );
     }

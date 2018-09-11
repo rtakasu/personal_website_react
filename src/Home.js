@@ -3,11 +3,15 @@ import './App.css';
 import Hero from './Hero.js';
 import HeroVideo from './HeroVideo.js';
 import Section from './Section.js';
+import ParallaxSection from './ParallaxSection.js';
 import Background from './Background.js';
 import Skills from './Skills.js';
 import Contact from './Contact.js';
 import Topbar from './Topbar.js';
 import Experience from './Experience.js';
+import { Parallax } from 'react-scroll-parallax';
+
+
 
 class Home extends React.Component {
 	render () {
@@ -27,7 +31,7 @@ class Home extends React.Component {
             background={'white'}
             sectionBody={<Skills/>}
           />
-          <Section
+          <ParallaxSection
             id={'experience'}
             title={'Experience'}
             background={'white'}
