@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import ExperienceItem from './ExperienceItem.js';
-import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 class Experience extends React.Component {
 	render () {
 		return (
-			  <Grid>
+			  <Container>
 			  		<ExperienceItem
 							date='Month 1942 - Month2 1999'
 							title='EXPERIENCE TITLE BLA BLA'
@@ -26,7 +26,7 @@ class Experience extends React.Component {
 							date='Month 1942 - Month2 1999'
 							title='EXPERIENCE TITLE BLA BLA'
 							description='Experience description, did this and that '/>
-			  </Grid>
+			  </Container>
 		)
 	}
 }

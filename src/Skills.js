@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import SkillItem from './SkillItem.js';
-import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 class Skills extends React.Component {
 	render () {
 		return (
-			  <Grid>
+			  <Container>
 			  	<Row>
 			  		<SkillItem 
 			  			title={'Ready to Ship'} 
@@ -21,7 +21,7 @@ class Skills extends React.Component {
 			  			skillList={['Python', 'React', 'Django']}/>
 
 			  	</Row>
-			  </Grid>
+			  </Container>
 		)
 	}
 }

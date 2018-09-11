@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
+import { Col } from 'reactstrap';
 
 class SkillItem extends React.Component {
 	render (props) {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 class Section extends React.Component {
 	render (props) {
@@ -8,14 +8,14 @@ class Section extends React.Component {
 				id={this.props.id} 
 				className='section'
 				style={{backgroundColor: this.props.background}}>
-			  <Grid>
+			  <Container>
 			  	<Row>
 			  		<Col lg={12}>
 			  			<h2 className="section-heading">{this.props.title}</h2>
 			  			<hr className='thematic-break'/>
 			  		</Col>
 			  	</Row>
-			  </Grid>
+			  </Container>
 
 			  {this.props.sectionBody}
 

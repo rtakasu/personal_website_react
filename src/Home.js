@@ -8,8 +8,6 @@ import Skills from './Skills.js';
 import Contact from './Contact.js';
 import Topbar from './Topbar.js';
 import Experience from './Experience.js';
-import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
-import { StickyContainer, Sticky } from 'react-sticky';
 
 class Home extends React.Component {
 	render () {

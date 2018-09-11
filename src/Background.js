@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 class Background extends React.Component {
 	render () {
 		return (
-			  <Grid>
+			  <Container>
 			  	<Row>
 			  		<Col lg={4} md={4}>
 							<div className='image-cropper'>
-								<Image 
+								<img 
 								className = 'profile-picture'
 								src='/Behind-the-screen.jpg' 
 								circle />
@@ -20,7 +20,7 @@ class Background extends React.Component {
 						</Col>
 
 			  	</Row>
-			  </Grid>
+			  </Container>
 		)
 	}
 }

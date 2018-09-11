@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
+import { Container, Row, Col } from 'reactstrap';
 
 class Hero extends React.Component {
 	render () {
 		return (
 			<div className="bgimage">
-			  <Grid fluid>
+			  <Container fluid>
 			    <Row>
 			      <Col lg={12} md={12} sm={12} xs={12}>
 			        <h5>Hello, world! Full width Hero-unit header</h5>
@@ -13,7 +13,7 @@ class Hero extends React.Component {
 			        <p><a href="#" className="btn btn-primary btn-large">Learn more »</a></p>
 			      </Col>
 			    </Row>
-			  </Grid>
+			  </Container>
 			</div>
 		)
 	}

@@ -4,7 +4,6 @@ import './App.css';
 import Home from './Home.js';
 import Test from './Test.js';
 import Projects from './Projects.js';
-import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
 import { BrowserRouter, Route, Switch, Link, IndexRoute, hashHistory } from 'react-router-dom'
 
 class App extends Component {

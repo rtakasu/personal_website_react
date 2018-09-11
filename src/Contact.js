@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Button, Image, Row, Col, Grid, Jumbotron } from 'react-bootstrap';
+import { Container, Row, Col } from 'reactstrap';
 import { FaGithubAlt, FaEnvelope, FaPhone, FaLinkedin} from 'react-icons/fa';
 import { IconContext } from "react-icons";
 
 class Contact extends React.Component {
 	render () {
 		return (
-			  <Grid>
+			  <Container>
 			  	<Row>
 			  		<Col lg={3} md={3}>
 			  			<p>Designed and developed by Rafael Takasu</p>
@@ -28,7 +28,7 @@ class Contact extends React.Component {
 							</IconContext.Provider>
 			  		</Col>
 			  	</Row>
-			  </Grid>
+			  </Container>
 		)
 	}
 }
