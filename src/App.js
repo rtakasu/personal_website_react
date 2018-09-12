@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Home.js';
 import Test from './Test.js';
 import Projects from './Projects.js';
+import Topbar from './Topbar.js';
 import { BrowserRouter, Route, Switch, Link, IndexRoute, hashHistory } from 'react-router-dom'
 import { ParallaxProvider } from 'react-scroll-parallax';
 
@@ -24,6 +25,7 @@ class App extends Component {
     render() {
         return (
           <ParallaxProvider>
+            <Topbar/>
             <BrowserRouter>
               <Switch>
                 <Route exact path='/' component={Home} />

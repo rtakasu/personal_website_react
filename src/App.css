@@ -94,13 +94,31 @@ body, html, #root, .container-div {
   margin-bottom: 0px;
 }
 
+.section-subheading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 2rem;
+}
+
 .blue-heading-div {
   background-color: #00b7c7;
   height: 2px;
   width: 6rem;
   margin-left: 1rem;
   margin-bottom: 1.5rem;
+
 }
+
+.blue-subheading-div {
+  background-color: #00b7c7;
+  height: 2px;
+  width: 4rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+
+}
+
 
 .thematic-break {
   margin: 2rem;
@@ -147,6 +165,41 @@ body, html, #root, .container-div {
 
 .contact-icons {
   float: right;
+}
+
+.project-item-title {
+  margin-top: 1rem;
+  color: #d8d8d8;
+  display:block;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.project-item-title:hover {
+  color: #00b7c7;
+  text-decoration: none; 
+}
+
+.project-item-image {
+  width: 100%;
+}
+
+.project-item-image-small-left {
+  width: 25%;
+  margin-left: 20%;
+  margin-right: 10%;
+  float: left;
+}
+
+.project-item-image-small-right {
+  width: 25%;
+  float: left;
+}
+
+.project-item-big {
+  margin-top: 1rem;
+  text-align: right;
+  margin-top: 2rem;
 }
 
 .bgimage {
