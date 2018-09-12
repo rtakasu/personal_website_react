@@ -9,7 +9,7 @@ class ExperienceItem extends React.Component {
 					{this.props.date}
 				</Col>
 				<Col lg={8} md={8} >
-					<h5 className="mb-3">{this.props.title}</h5>
+					<h5>{this.props.title}</h5>
 					<p>{this.props.description}</p>
 				</Col>
 			</Row>

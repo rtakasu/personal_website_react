@@ -10,7 +10,7 @@ class ParallaxSection extends React.Component {
 				    className="your-class"
 				    layers={[
 				        {
-				            image: '/Behind-the-screen.jpg',
+				            image: '/background-black-and-white-dawn-997443.jpg',
 				            amount: 0.3,
 				            slowerScrollRate: false,
 				        },
