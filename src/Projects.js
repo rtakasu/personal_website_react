@@ -41,7 +41,8 @@ class Projects extends React.Component {
 					url='https://championsleague18-19.herokuapp.com/'/>
 					<ProjectItem
 					title='PERSONAL WEBSITE V1'
-					description='Made with Bootstrap'/>
+					description='Made with Bootstrap'
+					url='http://rafael-takasu.herokuapp.com/'/>
 				</Row>
 
 
