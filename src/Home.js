@@ -43,7 +43,11 @@ class Home extends React.Component {
             background={'grey'}
             sectionBody={<Projects/>}
           />
-          <Contact/>
+          <Section
+            id={'contact'}
+            background={'grey'}
+            sectionBody={<Contact/>}
+          />
 
       </div>
 		)

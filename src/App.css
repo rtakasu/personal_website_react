@@ -225,3 +225,13 @@ body, html, #root, .container-div {
 .contact-name {
   color: #00b7c7;
 }
+
+.contact-item {
+ color: #00b7c7; 
+ float: right;
+ text-transform: uppercase;
+ margin-left: 3rem;
+
+}
+
+

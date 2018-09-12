@@ -11,6 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 class Topbar extends React.Component {
@@ -32,31 +33,33 @@ class Topbar extends React.Component {
 	render () {
 		return (
 					<div>
-		        <Navbar color="light" light expand="md" fixed='top'>
-		          <NavbarBrand href="/">reactstrap</NavbarBrand>
+		        <Navbar color="dark" light expand="md" fixed='top'>
+		          <NavbarBrand href="/"></NavbarBrand>
 		          <NavbarToggler onClick={this.toggle} />
 		          <Collapse isOpen={this.state.isOpen} navbar>
 		            <Nav className="ml-auto" navbar>
 		              <NavItem>
-		                <NavLink href="/components/">Components</NavLink>
-		              </NavItem>
-		              <NavItem>
-		                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+		              	<NavLink><AnchorLink href='#background'>Resume</AnchorLink> </NavLink>
 		              </NavItem>
 		              <UncontrolledDropdown nav inNavbar>
 		                <DropdownToggle nav caret>
-		                  Options
+		                  About
 		                </DropdownToggle>
 		                <DropdownMenu right>
 		                  <DropdownItem>
-		                    Option 1
+		                    <NavLink><AnchorLink href='#background'>Background</AnchorLink> </NavLink>
 		                  </DropdownItem>
 		                  <DropdownItem>
-		                    Option 2
+		                    <NavLink><AnchorLink href='#skills'>Skills</AnchorLink> </NavLink>
 		                  </DropdownItem>
-		                  <DropdownItem divider />
 		                  <DropdownItem>
-		                    Reset
+		                    <NavLink><AnchorLink href='#experience'>Experience</AnchorLink> </NavLink>
+		                  </DropdownItem>
+		                  <DropdownItem>
+		                    <NavLink><AnchorLink href='#projects'>Projects</AnchorLink> </NavLink>
+		                  </DropdownItem>
+		                  <DropdownItem>
+		                    <NavLink><AnchorLink href='#contact'>Contact</AnchorLink> </NavLink>
 		                  </DropdownItem>
 		                </DropdownMenu>
 		              </UncontrolledDropdown>

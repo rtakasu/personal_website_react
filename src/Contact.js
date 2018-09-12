@@ -12,20 +12,10 @@ class Contact extends React.Component {
 			  			<p>Designed and developed by <span className='contact-name'>Rafael Takasu</span></p>
 			  		</Col>
 			  		<Col lg={9} md={9}>
-			  			<IconContext.Provider value={{ size:'3rem' ,color: "blue", className: "global-class-name" }}>
-							  <div className='contact-icons'>
-							    <FaGithubAlt />
-							  </div>
-							  <div className='contact-icons'>
-							    <FaLinkedin />
-							  </div>
-							  <div className='contact-icons'>
-							    <FaPhone />
-							  </div>
-							  <div className='contact-icons'>
-							    <FaEnvelope />
-							  </div>
-							</IconContext.Provider>
+			  			<p className='contact-item'>Resume</p>
+			  			<p className='contact-item'>Github</p>
+			  			<p className='contact-item'>Linkedin</p>
+			  			<p className='contact-item'>Email</p>
 			  		</Col>
 			  	</Row>
 			  </Container>
