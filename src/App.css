@@ -234,4 +234,9 @@ body, html, #root, .container-div {
 
 }
 
+.contact-item:hover {
+  color: #00b7c7; 
+  text-decoration: none; 
+}
+
 

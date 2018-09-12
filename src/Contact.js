@@ -12,10 +12,10 @@ class Contact extends React.Component {
 			  			<p>Designed and developed by <span className='contact-name'>Rafael Takasu</span></p>
 			  		</Col>
 			  		<Col lg={9} md={9}>
-			  			<p className='contact-item'>Resume</p>
-			  			<p className='contact-item'>Github</p>
-			  			<p className='contact-item'>Linkedin</p>
-			  			<p className='contact-item'>Email</p>
+			  			<a href='https://github.com/rtakasu/resume/raw/master/Resume.pdf' className='contact-item'>Resume</a>
+			  			<a href='https://github.com/rtakasu' className='contact-item'>Github</a>
+			  			<a href='https://www.linkedin.com/in/rafael-takasu/' className='contact-item'>Linkedin</a>
+			  			<a href='mailto:rafatakasu@gmail.com' className='contact-item'>Email</a>
 			  		</Col>
 			  	</Row>
 			  </Container>

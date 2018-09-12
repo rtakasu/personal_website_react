@@ -37,7 +37,8 @@ class Projects extends React.Component {
 				<Row>
 					<ProjectItem
 					title='CHAMPIONS LEAGUE 2018-2019 BRACKET'
-					description="A backend made with Python using Flask for creating brackets for the 2018-2019 Champions League. The website supports user login with password and sessions. The backend uses an SQLite database to store the user's bracket info. Frontend in progress."/>
+					description="A backend made with Python using Flask for creating brackets for the 2018-2019 Champions League. The website supports user login with password and sessions. The backend uses an SQLite database to store the user's bracket info. Frontend in progress."
+					url='https://championsleague18-19.herokuapp.com/'/>
 					<ProjectItem
 					title='PERSONAL WEBSITE V1'
 					description='Made with Bootstrap'/>
