@@ -38,7 +38,7 @@ class Projects extends React.Component {
 					<ProjectItem
 					title='CHATROOM'
 					description='A simple broadcast-like chatroom made with Reactjs for the frontend and Nodejs + Expressjs on the backend. Using sockets, the app allows quick communication between anyone logged into the app.'
-					url='https://cryptic-everglades-87817.herokuapp.com/'/>
+					url='https://rafa-chatroom.herokuapp.com'/>
 					<ProjectItem
 					title='CHAMPIONS LEAGUE 2018-2019 BRACKET'
 					description="A backend made with Python using Flask for creating brackets for the 2018-2019 Champions League. The website supports user login with password and sessions. The backend uses an SQLite database to store the user's bracket info. Frontend in progress."
